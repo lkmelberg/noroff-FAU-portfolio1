@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+header {
+  padding-top: 3rem;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+h3,
+p {
+  color: black;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+li {
+  padding-top: 1rem;
+}
+
+ul {
+  padding: 0%;
+}
+
+body {
+  background: black;
+  color: #f8d8e5;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  width: 18rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 1.5rem;
+  padding: 1rem;
+  background-color: #f8d8e5;
+  align-items: center;
+}
+.im {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 80%; */
+}
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 25rem;
+  object-fit: contain;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: #f8d8e5;
+  text-align: center;
+  font-size: 12px;
+  padding: 1em 0;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
